@@ -1,0 +1,55 @@
+E:\2-Others\8-DotNetProject\HomeScreen\HomeScreen\HomeScreen\bin\Debug\HomeScreen.exe.config
+E:\2-Others\8-DotNetProject\HomeScreen\HomeScreen\HomeScreen\bin\Debug\HomeScreen.exe
+E:\2-Others\8-DotNetProject\HomeScreen\HomeScreen\HomeScreen\bin\Debug\HomeScreen.pdb
+E:\2-Others\8-DotNetProject\HomeScreen\HomeScreen\HomeScreen\obj\Debug\MainWindow.baml
+E:\2-Others\8-DotNetProject\HomeScreen\HomeScreen\HomeScreen\obj\Debug\MainWindow.g.cs
+E:\2-Others\8-DotNetProject\HomeScreen\HomeScreen\HomeScreen\obj\Debug\App.g.cs
+E:\2-Others\8-DotNetProject\HomeScreen\HomeScreen\HomeScreen\obj\Debug\HomeScreen_MarkupCompile.cache
+E:\2-Others\8-DotNetProject\HomeScreen\HomeScreen\HomeScreen\obj\Debug\HomeScreen.g.resources
+E:\2-Others\8-DotNetProject\HomeScreen\HomeScreen\HomeScreen\obj\Debug\HomeScreen.Properties.Resources.resources
+E:\2-Others\8-DotNetProject\HomeScreen\HomeScreen\HomeScreen\obj\Debug\HomeScreen.csproj.GenerateResource.Cache
+E:\2-Others\8-DotNetProject\HomeScreen\HomeScreen\HomeScreen\obj\Debug\HomeScreen.exe
+E:\2-Others\8-DotNetProject\HomeScreen\HomeScreen\HomeScreen\obj\Debug\HomeScreen.pdb
+E:\2-Others\8-DotNetProject\HomeScreen\HomeScreen\HomeScreen\obj\Debug\HomeScreen.csprojResolveAssemblyReference.cache
+C:\Users\Mohammad\Documents\Visual Studio 2012\Projects\HomeScreen\HomeScreen\HomeScreen\bin\Debug\HomeScreen.exe.config
+C:\Users\Mohammad\Documents\Visual Studio 2012\Projects\HomeScreen\HomeScreen\HomeScreen\bin\Debug\HomeScreen.exe
+C:\Users\Mohammad\Documents\Visual Studio 2012\Projects\HomeScreen\HomeScreen\HomeScreen\bin\Debug\HomeScreen.pdb
+C:\Users\Mohammad\Documents\Visual Studio 2012\Projects\HomeScreen\HomeScreen\HomeScreen\obj\Debug\HomeScreen.csprojResolveAssemblyReference.cache
+C:\Users\Mohammad\Documents\Visual Studio 2012\Projects\HomeScreen\HomeScreen\HomeScreen\obj\Debug\MainWindow.baml
+C:\Users\Mohammad\Documents\Visual Studio 2012\Projects\HomeScreen\HomeScreen\HomeScreen\obj\Debug\MainWindow.g.cs
+C:\Users\Mohammad\Documents\Visual Studio 2012\Projects\HomeScreen\HomeScreen\HomeScreen\obj\Debug\App.g.cs
+C:\Users\Mohammad\Documents\Visual Studio 2012\Projects\HomeScreen\HomeScreen\HomeScreen\obj\Debug\HomeScreen_MarkupCompile.cache
+C:\Users\Mohammad\Documents\Visual Studio 2012\Projects\HomeScreen\HomeScreen\HomeScreen\obj\Debug\HomeScreen.g.resources
+C:\Users\Mohammad\Documents\Visual Studio 2012\Projects\HomeScreen\HomeScreen\HomeScreen\obj\Debug\HomeScreen.Properties.Resources.resources
+C:\Users\Mohammad\Documents\Visual Studio 2012\Projects\HomeScreen\HomeScreen\HomeScreen\obj\Debug\HomeScreen.csproj.GenerateResource.Cache
+C:\Users\Mohammad\Documents\Visual Studio 2012\Projects\HomeScreen\HomeScreen\HomeScreen\obj\Debug\HomeScreen.exe
+C:\Users\Mohammad\Documents\Visual Studio 2012\Projects\HomeScreen\HomeScreen\HomeScreen\obj\Debug\HomeScreen.pdb
+E:\2-Others\8-DotNetProject\HomeScreen\HomeScreen\bin\Debug\HomeScreen.exe.config
+E:\2-Others\8-DotNetProject\HomeScreen\HomeScreen\bin\Debug\HomeScreen.exe
+E:\2-Others\8-DotNetProject\HomeScreen\HomeScreen\bin\Debug\HomeScreen.pdb
+E:\2-Others\8-DotNetProject\HomeScreen\HomeScreen\obj\Debug\HomeScreen.csprojResolveAssemblyReference.cache
+E:\2-Others\8-DotNetProject\HomeScreen\HomeScreen\obj\Debug\MainWindow.baml
+E:\2-Others\8-DotNetProject\HomeScreen\HomeScreen\obj\Debug\MainWindow.g.cs
+E:\2-Others\8-DotNetProject\HomeScreen\HomeScreen\obj\Debug\App.g.cs
+E:\2-Others\8-DotNetProject\HomeScreen\HomeScreen\obj\Debug\HomeScreen_MarkupCompile.cache
+E:\2-Others\8-DotNetProject\HomeScreen\HomeScreen\obj\Debug\HomeScreen.g.resources
+E:\2-Others\8-DotNetProject\HomeScreen\HomeScreen\obj\Debug\HomeScreen.Properties.Resources.resources
+E:\2-Others\8-DotNetProject\HomeScreen\HomeScreen\obj\Debug\HomeScreen.csproj.GenerateResource.Cache
+E:\2-Others\8-DotNetProject\HomeScreen\HomeScreen\obj\Debug\HomeScreen.exe
+E:\2-Others\8-DotNetProject\HomeScreen\HomeScreen\obj\Debug\HomeScreen.pdb
+C:\Users\Mohammad\Documents\Visual Studio 2012\Projects\HomeScreen\HomeScreen\bin\Debug\HomeScreen.exe.config
+C:\Users\Mohammad\Documents\Visual Studio 2012\Projects\HomeScreen\HomeScreen\bin\Debug\HomeScreen.exe
+C:\Users\Mohammad\Documents\Visual Studio 2012\Projects\HomeScreen\HomeScreen\bin\Debug\HomeScreen.pdb
+C:\Users\Mohammad\Documents\Visual Studio 2012\Projects\HomeScreen\HomeScreen\obj\Debug\ImageSliderTestWindow.baml
+C:\Users\Mohammad\Documents\Visual Studio 2012\Projects\HomeScreen\HomeScreen\obj\Debug\MainWindow.baml
+C:\Users\Mohammad\Documents\Visual Studio 2012\Projects\HomeScreen\HomeScreen\obj\Debug\MixScreenWindow.baml
+C:\Users\Mohammad\Documents\Visual Studio 2012\Projects\HomeScreen\HomeScreen\obj\Debug\ImageSliderTestWindow.g.cs
+C:\Users\Mohammad\Documents\Visual Studio 2012\Projects\HomeScreen\HomeScreen\obj\Debug\MainWindow.g.cs
+C:\Users\Mohammad\Documents\Visual Studio 2012\Projects\HomeScreen\HomeScreen\obj\Debug\MixScreenWindow.g.cs
+C:\Users\Mohammad\Documents\Visual Studio 2012\Projects\HomeScreen\HomeScreen\obj\Debug\App.g.cs
+C:\Users\Mohammad\Documents\Visual Studio 2012\Projects\HomeScreen\HomeScreen\obj\Debug\HomeScreen_MarkupCompile.cache
+C:\Users\Mohammad\Documents\Visual Studio 2012\Projects\HomeScreen\HomeScreen\obj\Debug\HomeScreen.g.resources
+C:\Users\Mohammad\Documents\Visual Studio 2012\Projects\HomeScreen\HomeScreen\obj\Debug\HomeScreen.Properties.Resources.resources
+C:\Users\Mohammad\Documents\Visual Studio 2012\Projects\HomeScreen\HomeScreen\obj\Debug\HomeScreen.csproj.GenerateResource.Cache
+C:\Users\Mohammad\Documents\Visual Studio 2012\Projects\HomeScreen\HomeScreen\obj\Debug\HomeScreen.exe
+C:\Users\Mohammad\Documents\Visual Studio 2012\Projects\HomeScreen\HomeScreen\obj\Debug\HomeScreen.pdb

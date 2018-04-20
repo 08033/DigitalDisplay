@@ -1,0 +1,35 @@
+﻿<Window x:Class="HomeScreen.ImageSliderTestWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"        
+        Title="ImageSliderTestWindow"
+        Loaded="Window_Loaded"
+        Height="1920" Width="1080" WindowStartupLocation="CenterScreen" WindowState="Maximized" ResizeMode="NoResize" WindowStyle="None">    
+    <Window.Resources>
+        <!-- Start Fade -->
+        <Storyboard x:Key="FadeIn" >
+            <DoubleAnimation Duration="0:0:.25" Storyboard.TargetProperty="Opacity" From="0" To="1" />
+        </Storyboard>
+        <Storyboard x:Key="FadeOut">
+            <DoubleAnimation Duration="0:0:.5" Storyboard.TargetProperty="Opacity" To="0" />
+        </Storyboard>
+        <!-- End Fade -->
+    </Window.Resources>
+
+    <Canvas Width="1024" Height="768">
+        <Image x:Name="myImage" Stretch="UniformToFill" RenderTransformOrigin="0.5,0.5" Width="1024" Height="768">
+            <Image.RenderTransform>
+                <TransformGroup>
+                    <TranslateTransform X="0" Y="0" />
+                </TransformGroup>
+            </Image.RenderTransform>
+        </Image>
+        <Image x:Name="myImage2" Stretch="UniformToFill" RenderTransformOrigin="0.5,0.5" Width="1024" Height="768">
+            <Image.RenderTransform>
+                <TransformGroup>
+                    <TranslateTransform X="0" Y="0" />
+                </TransformGroup>
+            </Image.RenderTransform>
+        </Image>
+        <TextBlock TextWrapping="Wrap" x:Name="ErrorText" HorizontalAlignment="Stretch" VerticalAlignment="Center" TextAlignment="Center" Visibility="Collapsed" Text="The specified folder does not exist" FontSize="20" />
+    </Canvas>
+</Window>

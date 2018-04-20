@@ -1,0 +1,54 @@
+﻿<Window x:Class="HomeScreen.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Wall Mirror" Icon="mirror-product.ico"
+        Height="1920" Width="1080" WindowStartupLocation="CenterScreen" WindowState="Maximized" ResizeMode="NoResize" WindowStyle="None" Loaded="Window_Loaded">
+    <Window.Resources>
+        <Style x:Key="tbStyle1" TargetType="{x:Type TextBlock}">
+            <Setter Property="Foreground" Value="Black"/>
+        </Style>
+    </Window.Resources>
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"></RowDefinition>
+            <RowDefinition Height="Auto"></RowDefinition>
+            <RowDefinition Height="*"></RowDefinition>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*" />
+            <ColumnDefinition Width="*" />
+        </Grid.ColumnDefinitions>
+        <Grid.Resources>
+            <Style BasedOn="{StaticResource tbStyle1}" TargetType="{x:Type TextBlock}"></Style>
+        </Grid.Resources>
+        <Grid.Background>
+            <ImageBrush ImageSource="mirror-product.jpg" Stretch="UniformToFill"/>
+        </Grid.Background>
+        <TextBlock Grid.Row="0" Grid.Column="0" HorizontalAlignment="Left" VerticalAlignment="Top" Padding="15" FontSize="34">
+            Good Morning, <LineBreak></LineBreak> <Label FontSize="24" HorizontalAlignment="Left" Foreground="Gray">User</Label>
+        </TextBlock>
+
+        <StackPanel Grid.Row="0" Grid.Column="1">
+            <Label  HorizontalAlignment="Right" Name="lblLocation" FontSize="34" Padding="15">Karachi</Label>            
+            <StackPanel Orientation="Horizontal" HorizontalAlignment="Right">
+                <Label Name="lblTemperature" FontSize="24" VerticalAlignment="Center" Foreground="Gray">7°c</Label>
+                <Label Name="lblConditions" FontSize="24" VerticalAlignment="Center" Foreground="Gray">Sunny</Label>
+                <Image Name="imgWeatherConditions" Stretch="None" Source="http://openweathermap.org/img/w/01d.png"></Image>
+            </StackPanel>
+        </StackPanel>
+        
+        <Image Grid.Row="1" Grid.ColumnSpan="2" x:Name="myImage" Source="bin/debug/Images/1.jpg" Stretch="Fill" Width="Auto" Height="275" HorizontalAlignment="Center" Grid.RowSpan="2"></Image>
+
+        <TextBlock Grid.Row="2" Grid.Column="0" HorizontalAlignment="Left" VerticalAlignment="Bottom" Padding="15" FontSize="34">
+            <Label Name="lblDate">Sat, Jan 24th</Label>
+             <LineBreak/>
+            <Label FontSize="24" Foreground="Gray" Name="lblTime">
+                8:30 am</Label>
+        </TextBlock>
+
+        <MediaElement Name="VideoControl" Grid.Row="2" Grid.Column="1" Width="Auto" Height="400" VerticalAlignment="Center" Margin="0 0 15 0"
+                      Source="C:\Users\Mohammad\Downloads\2-Video\piper.mp4"></MediaElement>
+        
+                
+    </Grid>
+</Window>
