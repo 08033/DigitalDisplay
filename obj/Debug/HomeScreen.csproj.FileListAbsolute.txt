@@ -53,3 +53,6 @@ C:\Users\Mohammad\Documents\Visual Studio 2012\Projects\HomeScreen\HomeScreen\ob
 C:\Users\Mohammad\Documents\Visual Studio 2012\Projects\HomeScreen\HomeScreen\obj\Debug\HomeScreen.csproj.GenerateResource.Cache
 C:\Users\Mohammad\Documents\Visual Studio 2012\Projects\HomeScreen\HomeScreen\obj\Debug\HomeScreen.exe
 C:\Users\Mohammad\Documents\Visual Studio 2012\Projects\HomeScreen\HomeScreen\obj\Debug\HomeScreen.pdb
+C:\Users\Mohammad\Documents\Visual Studio 2012\Projects\HomeScreen\HomeScreen\obj\Debug\HomeScreen.csprojResolveAssemblyReference.cache
+C:\Users\Mohammad\Documents\Visual Studio 2012\Projects\HomeScreen\HomeScreen\bin\Debug\log4net.dll
+C:\Users\Mohammad\Documents\Visual Studio 2012\Projects\HomeScreen\HomeScreen\obj\Debug\HomeScreen_Content.g.cs
