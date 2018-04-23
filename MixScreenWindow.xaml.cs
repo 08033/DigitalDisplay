@@ -291,7 +291,10 @@ namespace HomeScreen
             if (timerTick == 0)
             {
                 string appId = ConfigurationSettings.AppSettings["AppId"];
-                string weburl = "http://api.openweathermap.org/data/2.5/weather?lat=" + "24.91" + "&lon=" + "67.08" + "&APPID=" + appId + "&mode=xml";
+
+                string latitude = ConfigurationSettings.AppSettings["lat"];
+                string longitude = ConfigurationSettings.AppSettings["lon"];
+                string weburl = "http://api.openweathermap.org/data/2.5/weather?lat=" + latitude + "&lon=" + longitude + "&APPID=" + appId + "&mode=xml";
 
                 var xml = new WebClient().DownloadString(new Uri(weburl));
                 XmlDocument doc = new XmlDocument();

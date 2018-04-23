@@ -1,151 +1,57 @@
-INFO 2018-04-20 12:54:49 – Initializing MixScreenWindow
-INFO 2018-04-20 12:54:50 – MixScreenWindow Initialization completed
-INFO 2018-04-20 12:54:51 – Function Window_Loaded: Loading MixScreenWindow
-INFO 2018-04-20 12:54:51 – header loaded
-INFO 2018-04-20 12:54:51 – setDateTimeTemperature done
-INFO 2018-04-20 12:54:51 – video player load done
-INFO 2018-04-20 12:54:51 – image slide show load done
-INFO 2018-04-20 12:54:51 – text message startTicker done
-INFO 2018-04-20 12:55:05 – Function Window_Loaded: MixScreenWindow Loaded
-INFO 2018-04-20 12:55:10 – function timer_Elapsed: setDateTimeTemperature done
-INFO 2018-04-20 12:55:11 – function timer_Elapsed: setDateTimeTemperature done
-INFO 2018-04-20 12:55:13 – function timer_Elapsed: setDateTimeTemperature done
-INFO 2018-04-20 12:55:14 – function timer_Elapsed: setDateTimeTemperature done
-INFO 2018-04-20 12:55:21 – function timer_Elapsed: setDateTimeTemperature done
-INFO 2018-04-20 12:56:04 – function timer_Elapsed: setDateTimeTemperature done
-INFO 2018-04-20 12:56:05 – function timer_Elapsed: setDateTimeTemperature done
-INFO 2018-04-20 12:56:06 – function timer_Elapsed: setDateTimeTemperature done
-INFO 2018-04-20 12:56:07 – function timer_Elapsed: setDateTimeTemperature done
-INFO 2018-04-20 12:56:15 – function timer_Elapsed: setDateTimeTemperature done
-INFO 2018-04-20 12:56:15 – function timer_Elapsed: setDateTimeTemperature done
-INFO 2018-04-20 12:56:15 – function timer_Elapsed: setDateTimeTemperature done
-INFO 2018-04-20 12:56:16 – function timer_Elapsed: setDateTimeTemperature done
-INFO 2018-04-20 12:56:16 – function timerImageChange_Tick: image PlaySlideShow done
-INFO 2018-04-20 12:56:16 – function timer_Elapsed: setDateTimeTemperature done
-INFO 2018-04-20 12:56:18 – function timer_Elapsed: setDateTimeTemperature done
-INFO 2018-04-20 12:56:18 – function timer_Elapsed: setDateTimeTemperature done
-INFO 2018-04-20 12:56:19 – function timerImageChange_Tick: image PlaySlideShow done
-INFO 2018-04-20 12:56:19 – function timer_Elapsed: setDateTimeTemperature done
-INFO 2018-04-20 12:56:19 – function myVideoControl_MediaEnded: video changed
-INFO 2018-04-20 12:56:20 – function timer_Elapsed: setDateTimeTemperature done
-INFO 2018-04-20 12:56:21 – function timer_Elapsed: setDateTimeTemperature done
-INFO 2018-04-20 12:56:22 – function timerImageChange_Tick: image PlaySlideShow done
-INFO 2018-04-20 12:56:22 – function timer_Elapsed: setDateTimeTemperature done
-INFO 2018-04-20 12:56:23 – function timer_Elapsed: setDateTimeTemperature done
-INFO 2018-04-20 12:56:25 – function timer_Elapsed: setDateTimeTemperature done
-INFO 2018-04-20 12:56:25 – function timerImageChange_Tick: image PlaySlideShow done
-INFO 2018-04-20 12:56:25 – function timer_Elapsed: setDateTimeTemperature done
-INFO 2018-04-20 12:56:27 – function timer_Elapsed: setDateTimeTemperature done
-INFO 2018-04-20 12:56:28 – function timer_Elapsed: setDateTimeTemperature done
-INFO 2018-04-20 12:56:28 – function timerImageChange_Tick: image PlaySlideShow done
-INFO 2018-04-20 12:56:28 – function timer_Elapsed: setDateTimeTemperature done
-INFO 2018-04-20 12:56:29 – function timer_Elapsed: setDateTimeTemperature done
-INFO 2018-04-20 12:56:30 – function timer_Elapsed: setDateTimeTemperature done
-INFO 2018-04-20 12:56:31 – function timerImageChange_Tick: image PlaySlideShow done
-INFO 2018-04-20 12:56:31 – function timer_Elapsed: setDateTimeTemperature done
-INFO 2018-04-20 12:56:32 – function timer_Elapsed: setDateTimeTemperature done
-INFO 2018-04-20 12:56:33 – function timer_Elapsed: setDateTimeTemperature done
-INFO 2018-04-20 12:56:34 – function timerImageChange_Tick: image PlaySlideShow done
-INFO 2018-04-20 12:56:35 – function timer_Elapsed: setDateTimeTemperature done
-INFO 2018-04-20 12:56:36 – function timer_Elapsed: setDateTimeTemperature done
-INFO 2018-04-20 12:56:36 – function timer_Elapsed: setDateTimeTemperature done
-INFO 2018-04-20 12:56:37 – function timerImageChange_Tick: image PlaySlideShow done
-INFO 2018-04-20 12:56:38 – function timer_Elapsed: setDateTimeTemperature done
-INFO 2018-04-20 12:56:39 – function timer_Elapsed: setDateTimeTemperature done
-INFO 2018-04-20 12:56:39 – function timer_Elapsed: setDateTimeTemperature done
-INFO 2018-04-20 12:56:40 – function timerImageChange_Tick: image PlaySlideShow done
-INFO 2018-04-20 12:56:40 – function timer_Elapsed: setDateTimeTemperature done
-INFO 2018-04-20 12:56:42 – function timer_Elapsed: setDateTimeTemperature done
-INFO 2018-04-20 12:56:43 – function timer_Elapsed: setDateTimeTemperature done
-INFO 2018-04-20 12:56:43 – function timerImageChange_Tick: image PlaySlideShow done
-INFO 2018-04-20 12:56:43 – function timer_Elapsed: setDateTimeTemperature done
-INFO 2018-04-20 12:56:44 – function timer_Elapsed: setDateTimeTemperature done
-INFO 2018-04-20 12:56:45 – function timer_Elapsed: setDateTimeTemperature done
-INFO 2018-04-20 12:56:46 – function timerImageChange_Tick: image PlaySlideShow done
-INFO 2018-04-20 12:56:46 – function timer_Elapsed: setDateTimeTemperature done
-INFO 2018-04-20 12:56:47 – function timer_Elapsed: setDateTimeTemperature done
-INFO 2018-04-20 12:56:49 – function timer_Elapsed: setDateTimeTemperature done
-INFO 2018-04-20 12:56:49 – function timerImageChange_Tick: image PlaySlideShow done
-INFO 2018-04-20 12:56:49 – function timer_Elapsed: setDateTimeTemperature done
-INFO 2018-04-20 12:56:51 – function timer_Elapsed: setDateTimeTemperature done
-INFO 2018-04-20 12:56:51 – function timer_Elapsed: setDateTimeTemperature done
-INFO 2018-04-20 12:56:52 – function timerImageChange_Tick: image PlaySlideShow done
-INFO 2018-04-20 12:56:52 – function timer_Elapsed: setDateTimeTemperature done
-INFO 2018-04-20 12:56:53 – function timer_Elapsed: setDateTimeTemperature done
-INFO 2018-04-20 12:56:55 – function timer_Elapsed: setDateTimeTemperature done
-INFO 2018-04-20 12:56:55 – function timerImageChange_Tick: image PlaySlideShow done
-INFO 2018-04-20 12:56:55 – function timer_Elapsed: setDateTimeTemperature done
-INFO 2018-04-20 12:56:57 – function timer_Elapsed: setDateTimeTemperature done
-INFO 2018-04-20 12:56:57 – function timer_Elapsed: setDateTimeTemperature done
-INFO 2018-04-20 12:56:58 – function timerImageChange_Tick: image PlaySlideShow done
-INFO 2018-04-20 12:56:58 – function timer_Elapsed: setDateTimeTemperature done
-INFO 2018-04-20 12:56:59 – function timer_Elapsed: setDateTimeTemperature done
-INFO 2018-04-20 12:57:00 – function timer_Elapsed: setDateTimeTemperature done
-INFO 2018-04-20 12:57:01 – function timerImageChange_Tick: image PlaySlideShow done
-INFO 2018-04-20 12:57:01 – function timer_Elapsed: setDateTimeTemperature done
-INFO 2018-04-20 12:57:02 – function timer_Elapsed: setDateTimeTemperature done
-INFO 2018-04-20 12:57:03 – function timer_Elapsed: setDateTimeTemperature done
-INFO 2018-04-20 12:57:04 – function timerImageChange_Tick: image PlaySlideShow done
-INFO 2018-04-20 12:57:04 – function timer_Elapsed: setDateTimeTemperature done
-INFO 2018-04-20 12:57:05 – function timer_Elapsed: setDateTimeTemperature done
-INFO 2018-04-20 12:57:07 – function timer_Elapsed: setDateTimeTemperature done
-INFO 2018-04-20 12:57:07 – function timerImageChange_Tick: image PlaySlideShow done
-INFO 2018-04-20 12:57:07 – function timer_Elapsed: setDateTimeTemperature done
-INFO 2018-04-20 12:57:08 – function timer_Elapsed: setDateTimeTemperature done
-INFO 2018-04-20 12:57:09 – function timer_Elapsed: setDateTimeTemperature done
-INFO 2018-04-20 12:57:10 – function timerImageChange_Tick: image PlaySlideShow done
-INFO 2018-04-20 12:57:11 – function timer_Elapsed: setDateTimeTemperature done
-INFO 2018-04-20 12:57:12 – function timer_Elapsed: setDateTimeTemperature done
-INFO 2018-04-20 12:57:13 – function timer_Elapsed: setDateTimeTemperature done
-INFO 2018-04-20 12:57:13 – function timerImageChange_Tick: image PlaySlideShow done
-INFO 2018-04-20 12:57:14 – function timer_Elapsed: setDateTimeTemperature done
-INFO 2018-04-20 12:57:15 – function timer_Elapsed: setDateTimeTemperature done
-INFO 2018-04-20 12:57:16 – function timer_Elapsed: setDateTimeTemperature done
-INFO 2018-04-20 12:57:16 – function timerImageChange_Tick: image PlaySlideShow done
-INFO 2018-04-20 12:57:17 – function timer_Elapsed: setDateTimeTemperature done
-INFO 2018-04-20 12:57:18 – function timer_Elapsed: setDateTimeTemperature done
-INFO 2018-04-20 12:57:19 – function timer_Elapsed: setDateTimeTemperature done
-INFO 2018-04-20 12:57:19 – function timerImageChange_Tick: image PlaySlideShow done
-INFO 2018-04-20 12:57:20 – function timer_Elapsed: setDateTimeTemperature done
-INFO 2018-04-20 12:57:21 – function timer_Elapsed: setDateTimeTemperature done
-INFO 2018-04-20 12:57:22 – function timer_Elapsed: setDateTimeTemperature done
-INFO 2018-04-20 12:57:22 – function timerImageChange_Tick: image PlaySlideShow done
-INFO 2018-04-20 12:57:23 – function timer_Elapsed: setDateTimeTemperature done
-INFO 2018-04-20 12:57:24 – function timer_Elapsed: setDateTimeTemperature done
-INFO 2018-04-20 12:57:25 – function timer_Elapsed: setDateTimeTemperature done
-INFO 2018-04-20 12:57:25 – function timerImageChange_Tick: image PlaySlideShow done
-INFO 2018-04-20 12:57:26 – function timer_Elapsed: setDateTimeTemperature done
-INFO 2018-04-20 12:57:27 – function timer_Elapsed: setDateTimeTemperature done
-INFO 2018-04-20 12:57:28 – function timer_Elapsed: setDateTimeTemperature done
-INFO 2018-04-20 12:57:28 – function timerImageChange_Tick: image PlaySlideShow done
-INFO 2018-04-20 12:57:29 – function timer_Elapsed: setDateTimeTemperature done
-INFO 2018-04-20 12:57:30 – function timer_Elapsed: setDateTimeTemperature done
-INFO 2018-04-20 12:57:31 – function timer_Elapsed: setDateTimeTemperature done
-INFO 2018-04-20 12:57:31 – function timerImageChange_Tick: image PlaySlideShow done
-INFO 2018-04-20 12:57:31 – function timer_Elapsed: setDateTimeTemperature done
-INFO 2018-04-20 12:57:33 – function timer_Elapsed: setDateTimeTemperature done
-INFO 2018-04-20 12:57:34 – function timer_Elapsed: setDateTimeTemperature done
-INFO 2018-04-20 12:57:34 – function timerImageChange_Tick: image PlaySlideShow done
-INFO 2018-04-20 12:57:35 – function timer_Elapsed: setDateTimeTemperature done
-INFO 2018-04-20 12:57:36 – function timer_Elapsed: setDateTimeTemperature done
-INFO 2018-04-20 12:57:37 – function timer_Elapsed: setDateTimeTemperature done
-INFO 2018-04-20 12:57:37 – function timerImageChange_Tick: image PlaySlideShow done
-INFO 2018-04-20 12:57:38 – function timer_Elapsed: setDateTimeTemperature done
-INFO 2018-04-20 12:57:39 – function timer_Elapsed: setDateTimeTemperature done
-INFO 2018-04-20 12:57:40 – function timer_Elapsed: setDateTimeTemperature done
-INFO 2018-04-20 12:57:40 – function timerImageChange_Tick: image PlaySlideShow done
-INFO 2018-04-20 12:57:41 – function timer_Elapsed: setDateTimeTemperature done
-INFO 2018-04-20 12:57:42 – function timer_Elapsed: setDateTimeTemperature done
-INFO 2018-04-20 12:57:43 – function timer_Elapsed: setDateTimeTemperature done
-INFO 2018-04-20 12:57:43 – function timerImageChange_Tick: image PlaySlideShow done
-INFO 2018-04-20 12:57:44 – function timer_Elapsed: setDateTimeTemperature done
-INFO 2018-04-20 12:57:45 – function timer_Elapsed: setDateTimeTemperature done
-INFO 2018-04-20 12:57:45 – function myVideoControl_MediaEnded: video changed
-INFO 2018-04-20 12:57:46 – function timer_Elapsed: setDateTimeTemperature done
-INFO 2018-04-20 12:57:46 – function timerImageChange_Tick: image PlaySlideShow done
-INFO 2018-04-20 12:57:47 – function timer_Elapsed: setDateTimeTemperature done
-INFO 2018-04-20 12:57:48 – function timer_Elapsed: setDateTimeTemperature done
-INFO 2018-04-20 12:57:49 – function timer_Elapsed: setDateTimeTemperature done
-INFO 2018-04-20 12:57:49 – function timerImageChange_Tick: image PlaySlideShow done
-INFO 2018-04-20 12:57:50 – function timer_Elapsed: setDateTimeTemperature done
-INFO 2018-04-20 12:57:51 – function timer_Elapsed: setDateTimeTemperature done
+INFO 2018-04-23 02:09:42 – Initializing MixScreenWindow
+INFO 2018-04-23 02:09:42 – MixScreenWindow Initialization completed
+INFO 2018-04-23 02:09:42 – Function Window_Loaded: Loading MixScreenWindow
+INFO 2018-04-23 02:09:42 – function loadData start
+INFO 2018-04-23 02:09:42 – header loaded
+INFO 2018-04-23 02:09:42 – setDateTimeTemperature done
+INFO 2018-04-23 02:09:42 – video player load done
+INFO 2018-04-23 02:09:42 – image slide show load done
+INFO 2018-04-23 02:09:42 – text message startTicker done
+INFO 2018-04-23 02:09:42 – Function loadData end
+INFO 2018-04-23 02:09:42 – Function Window_Loaded end: MixScreenWindow Loaded
+INFO 2018-04-23 02:09:43 – function timer_Elapsed: setDateTimeTemperature done
+INFO 2018-04-23 02:09:44 – function timer_Elapsed: setDateTimeTemperature done
+INFO 2018-04-23 02:09:45 – function timer_Elapsed: setDateTimeTemperature done
+INFO 2018-04-23 02:09:45 – function timerImageChange_Tick: image PlaySlideShow done
+INFO 2018-04-23 02:09:46 – function timer_Elapsed: setDateTimeTemperature done
+INFO 2018-04-23 02:09:47 – function timer_Elapsed: setDateTimeTemperature done
+INFO 2018-04-23 02:09:48 – function timer_Elapsed: setDateTimeTemperature done
+INFO 2018-04-23 02:09:48 – function timerImageChange_Tick: image PlaySlideShow done
+INFO 2018-04-23 02:09:49 – function timer_Elapsed: setDateTimeTemperature done
+INFO 2018-04-23 02:09:50 – function timer_Elapsed: setDateTimeTemperature done
+INFO 2018-04-23 02:09:51 – function timer_Elapsed: setDateTimeTemperature done
+INFO 2018-04-23 02:09:51 – function timerImageChange_Tick: image PlaySlideShow done
+INFO 2018-04-23 02:09:52 – function timer_Elapsed: setDateTimeTemperature done
+INFO 2018-04-23 02:09:53 – function timer_Elapsed: setDateTimeTemperature done
+INFO 2018-04-23 02:09:59 – Initializing MixScreenWindow
+INFO 2018-04-23 02:09:59 – MixScreenWindow Initialization completed
+INFO 2018-04-23 02:09:59 – Function Window_Loaded: Loading MixScreenWindow
+INFO 2018-04-23 02:09:59 – function loadData start
+INFO 2018-04-23 02:09:59 – header loaded
+INFO 2018-04-23 02:09:59 – setDateTimeTemperature done
+INFO 2018-04-23 02:09:59 – video player load done
+INFO 2018-04-23 02:09:59 – image slide show load done
+INFO 2018-04-23 02:09:59 – text message startTicker done
+INFO 2018-04-23 02:09:59 – Function loadData end
+INFO 2018-04-23 02:09:59 – Function Window_Loaded end: MixScreenWindow Loaded
+INFO 2018-04-23 02:10:00 – function timer_Elapsed: setDateTimeTemperature done
+INFO 2018-04-23 02:10:01 – function timer_Elapsed: setDateTimeTemperature done
+INFO 2018-04-23 02:10:02 – function timer_Elapsed: setDateTimeTemperature done
+INFO 2018-04-23 02:10:02 – function timerImageChange_Tick: image PlaySlideShow done
+INFO 2018-04-23 02:10:03 – function timer_Elapsed: setDateTimeTemperature done
+INFO 2018-04-23 02:10:04 – function timer_Elapsed: setDateTimeTemperature done
+INFO 2018-04-23 02:10:05 – function timer_Elapsed: setDateTimeTemperature done
+INFO 2018-04-23 02:10:05 – function timerImageChange_Tick: image PlaySlideShow done
+INFO 2018-04-23 02:10:06 – function timer_Elapsed: setDateTimeTemperature done
+INFO 2018-04-23 02:10:07 – function timer_Elapsed: setDateTimeTemperature done
+INFO 2018-04-23 02:10:08 – function timer_Elapsed: setDateTimeTemperature done
+INFO 2018-04-23 02:10:08 – function timerImageChange_Tick: image PlaySlideShow done
+INFO 2018-04-23 02:10:09 – function timer_Elapsed: setDateTimeTemperature done
+INFO 2018-04-23 02:10:10 – function timer_Elapsed: setDateTimeTemperature done
+INFO 2018-04-23 02:10:11 – function timer_Elapsed: setDateTimeTemperature done
+INFO 2018-04-23 02:10:11 – function timerImageChange_Tick: image PlaySlideShow done
+INFO 2018-04-23 02:10:12 – function timer_Elapsed: setDateTimeTemperature done
+INFO 2018-04-23 02:10:13 – function timer_Elapsed: setDateTimeTemperature done
+INFO 2018-04-23 02:10:14 – function timer_Elapsed: setDateTimeTemperature done
+INFO 2018-04-23 02:10:14 – function timerImageChange_Tick: image PlaySlideShow done
+INFO 2018-04-23 02:10:15 – function timer_Elapsed: setDateTimeTemperature done
