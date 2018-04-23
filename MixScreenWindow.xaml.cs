@@ -34,6 +34,7 @@ namespace HomeScreen
         Uri videoUri;
 
         static System.Timers.Timer timer;
+        int timerTick = 0;
 
         private DispatcherTimer timerImageChange;
         private Image[] ImageControls;
@@ -55,15 +56,13 @@ namespace HomeScreen
                 myVideoControl.LoadedBehavior = MediaState.Manual;
 
                 //Initialize Image control, Image directory path and Image timer.
-                IntervalTimer = Convert.ToInt32(ConfigurationManager.AppSettings["IntervalTime"]);
+                IntervalTimer = Convert.ToInt32(ConfigurationManager.AppSettings["ImageIntervalTimeInSeconds"]);
                 strImagePath = ConfigurationManager.AppSettings["ImagePath"];
-                ImageControls = new[] { myImage, myImage2 };
+                ImageControls = new[] { myImage, myImage2 };               
 
-                LoadImageFolder(strImagePath);
+                var bc = new BrushConverter();
+                myGrid.Background = (Brush)bc.ConvertFrom("#e3f2fd");
 
-                timerImageChange = new DispatcherTimer();
-                timerImageChange.Interval = new TimeSpan(0, 0, IntervalTimer);
-                timerImageChange.Tick += new EventHandler(timerImageChange_Tick);
                 log.Info("MixScreenWindow Initialization completed");
             }
             catch (Exception exc)
@@ -75,10 +74,25 @@ namespace HomeScreen
 
         private void Window_Loaded(object sender, RoutedEventArgs e)
         {
-            log.Info("Function Window_Loaded: Loading MixScreenWindow");
+            try
+            {
+                log.Info("Function Window_Loaded: Loading MixScreenWindow");
+                loadData();
+                startTicker();
+                log.Info("Function Window_Loaded end: MixScreenWindow Loaded");
+            }
+            catch (Exception exc)
+            {
+                log.Error("Exception on Window_Loaded: " + exc.Message);
+            }
+        }
+
+        public void loadData()
+        {
+            log.Info("function loadData start");
             //1) Load header---------------------
             try
-            {                
+            {
                 BitmapImage image = new BitmapImage();
                 image.BeginInit();
                 image.UriSource = new Uri("header.jpg", UriKind.Relative);
@@ -101,17 +115,23 @@ namespace HomeScreen
             try
             {
                 setDateTimeTemperature();
-                // Initialize the timer.
-                timer = new System.Timers.Timer();
-                timer.Interval = 1000;
-                timer.Elapsed += timer_Elapsed;
-                timer.Enabled = true;
                 log.Info("setDateTimeTemperature done");
             }
             catch (Exception dateTimeTempExc)
             {
                 //Exception at date time temperature, logging message below:
                 log.Error("Exception at date time temperature: " + dateTimeTempExc.Message);
+            }
+            finally
+            {
+                // Initialize the timer. 
+                if (timer != null)
+                    timer.Stop();
+                timer = new System.Timers.Timer();
+                timer.Interval = 1000;
+                timer.Elapsed += timer_Elapsed;
+                timer.Start();
+                //timer.Enabled = true;
             }
             //2 end) info set----------------------------------------------------
 
@@ -147,8 +167,17 @@ namespace HomeScreen
             //4) Play Images------------------------------------------------------
             try
             {
+                LoadImageFolder(strImagePath);
+
+                if (timerImageChange != null)
+                    timerImageChange.Stop();
+                timerImageChange = new DispatcherTimer();
+                timerImageChange.Interval = new TimeSpan(0, 0, IntervalTimer);
+                timerImageChange.Tick += new EventHandler(timerImageChange_Tick);
+
                 PlaySlideShow();
-                timerImageChange.IsEnabled = true;
+                timerImageChange.Start();
+                //timerImageChange.IsEnabled = true;
                 log.Info("image slide show load done");
             }
             catch (Exception imagesExc)
@@ -167,8 +196,7 @@ namespace HomeScreen
                     // Read the stream to a string, and write the string to the console.
                     String line = sr.ReadToEnd();
                     myTicker.Text = line;
-                }
-                startTicker();
+                }                
                 log.Info("text message startTicker done");
             }
             catch (Exception tickerExc)
@@ -178,7 +206,7 @@ namespace HomeScreen
             }
             //5 end) ticker
 
-            log.Info("Function Window_Loaded: MixScreenWindow Loaded");
+            log.Info("Function loadData end");
         }
 
         void myVideoControl_MediaEnded(object sender, RoutedEventArgs e)
@@ -211,6 +239,45 @@ namespace HomeScreen
         /// </summary>
         public void setDateTimeTemperature()
         {
+
+            //setting background colors:
+            var bc = new BrushConverter();
+            switch (timerTick)
+            {
+                //case 0:
+                //    myGrid.Background = (Brush)bc.ConvertFrom("#e3f2fd");
+                //    break;
+                //case 10:
+                //    myGrid.Background = (Brush)bc.ConvertFrom("#e0f7fa");
+                //    break;
+                //case 20:
+                //    myGrid.Background = (Brush)bc.ConvertFrom("#e0f2f1");
+                //    break;
+                //case 30:
+                //    myGrid.Background = (Brush)bc.ConvertFrom("#e8f5e9");
+                //    break;
+                case 0:
+                    myGrid.Background = (Brush)bc.ConvertFrom("#f9fbe7");
+                    break;
+                case 10:
+                    myGrid.Background = (Brush)bc.ConvertFrom("#fffde7");
+                    break;
+                case 20:
+                    myGrid.Background = (Brush)bc.ConvertFrom("#fff8e1");
+                    break;
+                case 30:
+                    myGrid.Background = (Brush)bc.ConvertFrom("#fff3e0");
+                    break;
+                case 40:
+                    myGrid.Background = (Brush)bc.ConvertFrom("#ede7f6");
+                    break;
+                case 50:
+                    myGrid.Background = (Brush)bc.ConvertFrom("#e8eaf6");
+                    break;
+                default:
+                    break;
+            }                        
+
             /* 
                  * 2a)Date and Time setting:                    
             */
@@ -220,38 +287,53 @@ namespace HomeScreen
             /*
                 * 2b) Temperature and Weather Conditions                            
              */
-            string appId = ConfigurationSettings.AppSettings["AppId"];
-            string weburl = "http://api.openweathermap.org/data/2.5/weather?lat=" + "24.91" + "&lon=" + "67.08" + "&APPID=" + appId + "&mode=xml";
+            //Update temperature after one minute:
+            if (timerTick == 0)
+            {
+                string appId = ConfigurationSettings.AppSettings["AppId"];
+                string weburl = "http://api.openweathermap.org/data/2.5/weather?lat=" + "24.91" + "&lon=" + "67.08" + "&APPID=" + appId + "&mode=xml";
 
-            var xml = new WebClient().DownloadString(new Uri(weburl));
-            XmlDocument doc = new XmlDocument();
-            doc.LoadXml(xml);
+                var xml = new WebClient().DownloadString(new Uri(weburl));
+                XmlDocument doc = new XmlDocument();
+                doc.LoadXml(xml);
 
-            string szTemp = doc.DocumentElement.SelectSingleNode("temperature").Attributes["value"].Value;
-            double temp = double.Parse(szTemp) - 273.16;
-            lblTemperature.Content = temp.ToString("N2") + "°c";
+                string szTemp = doc.DocumentElement.SelectSingleNode("temperature").Attributes["value"].Value;
+                double temp = double.Parse(szTemp) - 273.16;
+                lblTemperature.Content = temp.ToString("N2") + "°c";
 
-            string weatherCondition = doc.DocumentElement.SelectSingleNode("weather").Attributes["value"].Value;
-            string weatherIcon = doc.DocumentElement.SelectSingleNode("weather").Attributes["icon"].Value;
+                string weatherCondition = doc.DocumentElement.SelectSingleNode("weather").Attributes["value"].Value;
+                string weatherIcon = doc.DocumentElement.SelectSingleNode("weather").Attributes["icon"].Value;
 
-            BitmapImage logo = new BitmapImage();
-            logo.BeginInit();
-            logo.UriSource = new Uri("http://openweathermap.org/img/w/" + weatherIcon + ".png");
-            logo.EndInit();
+                BitmapImage logo = new BitmapImage();
+                logo.BeginInit();
+                logo.UriSource = new Uri("http://openweathermap.org/img/w/" + weatherIcon + ".png");
+                logo.CacheOption = BitmapCacheOption.OnLoad;
+                logo.EndInit();
 
-            imgWeatherConditions.Source = logo;
-            lblConditions.Content = weatherCondition;
+                imgWeatherConditions.Source = logo;
+                lblConditions.Content = weatherCondition;
+            }
         }        
 
         void timer_Elapsed(object sender, System.Timers.ElapsedEventArgs e)
         {
             try
             {
+                timerTick++;
                 //Whenever you update your UI elements from a thread other than the main thread
                 this.Dispatcher.Invoke(() =>
                 {
                     setDateTimeTemperature();
                 });
+                if (timerTick == 60)
+                {
+                    //---> For refreshing media files and ticker during real time
+                    //this.Dispatcher.Invoke(() =>
+                    //{
+                    //    loadData();
+                    //});                    
+                    timerTick = 0;
+                }
                 log.Info("function timer_Elapsed: setDateTimeTemperature done");
             }
             catch (Exception dateTimeTempTimerExc)
@@ -352,13 +434,12 @@ namespace HomeScreen
         ///
         private void startTicker()
         {
-            myTicker.UseLayoutRounding = true;
-            
-            DoubleAnimation doubleAnimation = new DoubleAnimation();            
+            myTicker.UseLayoutRounding = true;           
+            DoubleAnimation doubleAnimation = new DoubleAnimation();
             doubleAnimation.From = this.ActualWidth;
             doubleAnimation.To = -myTicker.ActualWidth;
             doubleAnimation.RepeatBehavior = RepeatBehavior.Forever;
-            doubleAnimation.Duration = new Duration(TimeSpan.FromSeconds(20)); // provide an appropriate  duration 
+            doubleAnimation.Duration = new Duration(TimeSpan.FromSeconds(30)); // provide an appropriate  duration 
             myTicker.BeginAnimation(Canvas.LeftProperty, doubleAnimation);            
         }
     }

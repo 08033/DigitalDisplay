@@ -1,1 +1,1 @@
-This is my sample text for ticker of display application nnnew
+This is my sample text for ticker of display application. Later on this can be a big text. This ticker is very good and very informative. With information display people can be easily aware of the latest news.
